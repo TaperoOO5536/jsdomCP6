@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+  color: #0b0054;
+  margin: 0;
+  padding: 0;
+}
+
+.forecast {
+  width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 20px 5px;
+  margin-bottom: 50px;
+}
+
+.dayCard {
+  height: 250px;
+  border: solid;
+  border-radius: 10px;
+  border-color: #0b0054;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerLink {
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.dayLink {
+  color: #0b0054;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 1300px;
+}
+
+.conteiner {
+  width: 98vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.cityInput {
+  padding-left: 10px;
+  font-size: 20px;
+  border-color: #0b0054;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.submitBtn {
+  font-size: 20px;
+  border-color: #0b0054;
+  border-radius: 5px;
+  background-color: #f4f2ff;
+  height: 38px;
+  width: 170px;
+}
+
+h3 {
+  margin-bottom: 30px;
+}
+
+.dayForecast {
+  width: 1300px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 600px;
+  height: 450px;
+  border: solid;
+  border-width: 1px;
+  border-color: #0b0054;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconDateDiv {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tempratureDiv {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.wetDiv {
+  text-align: center;
+}
+
+.riseSetDiv {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.sunDiv,
+.moonDiv {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hoursCard {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  width: 1300px;
+}
+
+.hourCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid;
+  border-color: #0b0054;
+  border-radius: 10px;
+  height: 250px;
+}
+
+.todayForecast {
+  width: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.dayHourForecast {
+  margin-bottom: 50px;
+}
